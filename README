@@ -1,0 +1,56 @@
+Jayson Rhynas
+CS 349 A1
+January 21, 2011
+
+Corridor Defence (Tower Defence game)
+
+Note:
+All features are implemented; however, the actual parameters are not fine-tuned,
+leading to unbalanced gameplay. You may have to use the money cheat (press m)
+to be able to build enough defences to stop the enemies
+
+Features:
+
+3-panel store with radio-button-like interface and info panel
+ - click on an item in the store to see a description
+
+Place and delete turrets and traps
+ - place turrets and traps by selecting an item in the store
+   and clicking a grid spot in the playing field. Each spot can
+   hold at most 1 turret and 1 trap. Items can also be placed
+   by holding space and moving the mouse over the playing field
+   (be careful - this can be expensive!)
+ - delete items by selecting the desired item on the field and
+   clicking the Delete button or pressing d
+
+Upgrades for the Door (castle)
+ - upgrade your door by selecting an upgrade from the Door menu
+   and then clicking on the door
+   
+Speed controls
+ - the game can be paused indefinitely by clicking the || button
+   or by pressing p. Items can still be placed while paused,
+   however the Wave Timer will also continue to increase
+ - click the > button or press s to speed up the game
+   (only speeds up movement - reload and wave timers are unaffected)
+   
+Scoring
+ - for every enemy you destroy before it reaches the final door,
+   you get 1 point and some dollar value of money
+ - use money to buy upgrades and items
+ - play to get the highest score possible!
+ 
+Miscellaneous
+ - display of how long until the next wave, as well as the enemy type
+   and count of next wave
+ - flying enemies are not affected by traps
+ - keyboard shortcuts
+        q       quit game (X button)
+        p       pause game (|| button)
+        s       speed up game (x4) (> button)
+        n       send next wave
+        d       delete defence
+        space   place defence
+        m       add $1000 (cheat)
+ - animated items (all turrets, bear trap, trap door)
+ - Door shows damage
